@@ -4,11 +4,14 @@ import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 
 const resources = [
-  { name: '1. Intro', href: 'intro' },
-  { name: '2. The Pattern of Successful Startups', href: '#' },
-  { name: '3. The Javelin Method', href: '#' },
-  { name: '4. The Pivot Explained', href: '#' },
-  { name: "5. Javelin's Three Stages", href: '#' },
+  { name: '1. Intro', href: '#intro' },
+  {
+    name: '2. The Pattern of Successful Startups',
+    href: '#patternOfSuccessfulStartups',
+  },
+  { name: '3. The Javelin Method', href: '#javelinMethod' },
+  { name: '4. The Pivot Explained', href: '#pivotExplained' },
+  { name: "5. Javelin's Three Stages", href: '#javelinsThreeStages' },
   { name: '6. What is Product/Market Fit?', href: '#' },
   { name: '7. Customer Segments', href: '#' },
   { name: '8. Interviews', href: '#' },
@@ -24,7 +27,7 @@ export default function Header() {
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="#">
-              <span className="sr-only">Javalin</span>
+              <span className="sr-only">Javelin</span>
               <Image
                 className="h-8 w-auto sm:h-10"
                 src="/logo.svg"

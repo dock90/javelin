@@ -119,11 +119,11 @@ export default function Home() {
             </h1>
             <p className="mt-8 text-xl text-gray-500 leading-8">
               Learn the principles of the Lean Startup method and how to apply
-              them to B2B SaaS products.
+              them to your products.
             </p>
           </div>
           <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-            <h2>Intro</h2>
+            <h2 id="intro">Intro</h2>
             <p>
               Research shows 98% of new businesses and startups fail within 5
               years. But if you&apos;re like me, the opportunity to create
@@ -140,7 +140,9 @@ export default function Home() {
               to build a successful startup.
             </p>
 
-            <h2>The Pattern of Successful Startups</h2>
+            <h2 id="patternOfSuccessfulStartups">
+              The Pattern of Successful Startups
+            </h2>
             <p>
               A startup is not a small version of a big company. How you manage
               a startup is different than how you manage an existing business.
@@ -177,7 +179,7 @@ export default function Home() {
               market needs.
             </p>
 
-            <h2>The Javelin Method</h2>
+            <h2 id="javelinMethod">The Javelin Method</h2>
             <p>
               Most startups fail because they waste time and money building
               something customer&apos;s don&apos;t need.
@@ -240,7 +242,7 @@ export default function Home() {
               change your life and open a world of freedom to you in the future.
             </p>
 
-            <h2>The Pivot Explained</h2>
+            <h2 id="pivotExplained">The Pivot Explained</h2>
             <p>
               You can&apos;t come up with the best business by sitting in a room
               thinking. You have to get out of the building and learn from real
@@ -268,7 +270,6 @@ export default function Home() {
               pivot after you run an experiment and learn something from
               customers which tells you to change your idea.
             </p>
-            <div id="the-wrong-way-to-pivot" />
             <p>
               Unfortunately, even when we teach the Lean method in our
               workshops, many entrepreneurs are too obsessed with their
@@ -276,23 +277,22 @@ export default function Home() {
               take their solution and spend multiple experiments trying to fit
               that solution to a customer.
             </p>
-            <div className="thumbnail" id="the-wrong-way-to-pivot">
-              <div className="image-color">
-                <Image
-                  src="/wrongWayToPivot.jpg"
-                  alt="Wrong way to pivot"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <p>
+            <figure>
+              <Image
+                src="/wrongWayToPivot.jpg"
+                alt="Wrong way to pivot"
+                width={1310}
+                height={873}
+              />
+              <figcaption>
                 We call this pattern, &quot;Solution in search of a
                 customer.&quot; An entrepreneur can spend his entire life
                 looking for a customer for his solution and never find one.
                 It&apos;s a pattern we&apos;ve seen hundreds of times result in
                 failure.
-              </p>
-            </div>
+              </figcaption>
+            </figure>
+
             <p>
               Ideas have no value by themselves. Too many stories about great
               innovators focus on the idea. They forget most great innovations
@@ -322,29 +322,27 @@ export default function Home() {
               idea&quot; that is easy to execute instead of a &quot;brilliant
               idea&quot; that is difficult to execute.
             </p>
-            <div id="idea-times-execution" />
             <p>
               The below is a chart introduced to me almost 10 years ago by one
               of my mentors, Lawrence Lenihan. Larry is a seasoned venture
               capitalist in New York and was one of the first investors in
               Pinterest, League of Legends, and many other successful companies.
             </p>
-            <div className="thumbnail" id="idea-times-execution">
-              <div className="image-color">
-                <Image
-                  src="/ideaTimesExecution.jpg"
-                  alt="Idea times execution"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <p>
+            <figure>
+              <Image
+                src="/ideaTimesExecution.jpg"
+                alt="Idea times execution"
+                width={1310}
+                height={873}
+              />
+              <figcaption>
                 The thing that makes a successful entrepreneur is execution. A
                 brilliant idea with bad execution is worth at most $20. But an
                 OK idea with OK execution is worth $50,000. With good or great
                 execution an OK idea can be worth $500,000 or $5,000,000.
-              </p>
-            </div>
+              </figcaption>
+            </figure>
+
             <p>
               Ask any successful entrepreneur what&apos;s more important:
               brilliant idea or brilliant execution. I have asked dozens myself
@@ -356,34 +354,28 @@ export default function Home() {
               probably already thought of the best idea you are thinking of
               right now.
             </p>
-            <div id="how-javelin-works" />
             <p>
               Focusing on your customer instead of your solution will
               immediately improve your execution by 1 or 2 levels. So if you
-              want to be successul, don&apos;t choose your best idea, choose the
-              idea your customers need.
+              want to be successful, don&apos;t choose your best idea, choose
+              the idea your customers need.
             </p>
-            <h2>Javelin&apos;s Three Stages</h2>
-            <p>
-              Javelin is a flexible but focused platform to help your business
-              find Product/Market Fit.
-            </p>
-            <div className="thumbnail">
-              <div className="image-color">
-                <Image
-                  src="/stages.jpg"
-                  alt="Javelin stages"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <p>
+            <h2 id="javelinsThreeStages">Javelin&apos;s Three Stages</h2>
+            <figure>
+              <Image
+                src="/stages.jpg"
+                alt="Javelin stages"
+                width={1310}
+                height={873}
+              />
+              <figcaption>
                 When you start a new project with Javelin, the first step is to
                 choose your stage. One stage gives you the answers you need to
                 solve the next. Most entrepreneurs who haven&apos;t learned Lean
                 make the mistake of skipping the first two stages.
-              </p>
-            </div>
+              </figcaption>
+            </figure>
+
             <h2>1. Idea Stage</h2>
             <p>
               The idea stage is where most projects should start. It&apos;s
@@ -401,26 +393,23 @@ export default function Home() {
               Most of the time they will have much simpler needs than we
               anticipate.
             </p>
-            <div id="cost-of-experimentation" />
             <p>
               Interviews are the fastest way to learn if we&apos;re going in the
               right direction and make it easy to pivot our customer or problem.
             </p>
-            <div className="thumbnail">
-              <div className="image-color">
-                <Image
-                  src="/theCostOfExperimentation.jpg"
-                  alt="The cost of experimentation"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <p>
+            <figure>
+              <Image
+                src="/theCostOfExperimentation.jpg"
+                alt="The cost of experimentation"
+                width={1310}
+                height={873}
+              />
+              <figcaption>
                 The fastest startup usually wins. Following the Javelin Stages
                 won&apos;t only save us money, it will save us tremendous time
                 and allow us to move faster.
-              </p>
-            </div>
+              </figcaption>
+            </figure>
             <h2>2. Solution Testing</h2>
             <p>
               Solution testing comes after you&apos;ve validated your customer
@@ -449,7 +438,6 @@ export default function Home() {
               process of solving their problem, they miss important details
               below the surface and end up creating the wrong product.
             </p>
-            <div id="javelin-step-by-step" />
             <p>
               We recommend teams solve the problem as a service, using their own
               team as the laborers, before they write software. If this concept
@@ -468,21 +456,19 @@ export default function Home() {
               &quot;nice-to-have&quot; rather than a &quot;must-have&quot; is a
               risk that we should never take.
             </p>
-            <div className="thumbnail">
-              <div className="image-color">
-                <Image
-                  src="/stepByStep.jpg"
-                  alt="Javelin step by step"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <p>
+            <figure>
+              <Image
+                src="/stepByStep.jpg"
+                alt="Javelin step by step"
+                width={1310}
+                height={873}
+              />
+              <figcaption>
                 We learn a lot by doing interviews and customer trials, but the
                 moment of truth comes when we actually look at the numbers for
                 our signups and product/market fit score.
-              </p>
-            </div>
+              </figcaption>
+            </figure>
             <p>
               Step by step the Javelin process looks like this. We use
               interviews to hone in on a solution and then test that solution
@@ -491,7 +477,6 @@ export default function Home() {
               The fact that customers don&apos;t sign-up for our landing page
               won&apos;t tell us much. We need to go back to interviews.
             </p>
-            <div id="understanding-product-market-fit" />
             <p>
               In the same way, sometimes we need to try a completely different
               product for our Customer Trials. This is what happened to us
@@ -507,20 +492,18 @@ export default function Home() {
               before we can grow our business sustainably. Here&apos;s how to
               approach Product/Market Fit systematically.
             </p>
-            <div className="thumbnail">
-              <div className="image-color">
-                <Image
-                  src="/productStage.jpg"
-                  alt="Javelin product stage"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <p>
+            <figure>
+              <Image
+                src="/productStage.jpg"
+                alt="Javelin product stage"
+                width={1310}
+                height={873}
+              />
+              <figcaption>
                 The Product/Market Fit Survey is the most powerful baseline for
                 measuring and reaching Product/Market Fit.
-              </p>
-            </div>
+              </figcaption>
+            </figure>
             <p>
               For a new product, there&apos;s no operating history to use to
               estimate our future performance. We honestly don’t know what will
@@ -530,7 +513,6 @@ export default function Home() {
               when we are close to Product/Market Fit, and how do we know when
               we have arrived?”
             </p>
-            <div id="pmfit-qualitative" />
             <p>
               To measure Product/Market Fit it is essential to use both
               qualitative and quantitative measures. Quantitative is most
@@ -551,7 +533,6 @@ export default function Home() {
               customer can we move forward to measuring Product/Market Fit
               quantitatively.
             </p>
-            <div id="pmfit-quantitative" />
             <p>
               Product engagement can be a leading indicator that our product
               delivers on it’s intended job, but it’s not causal in every case.
@@ -586,28 +567,25 @@ export default function Home() {
               don&apos;t have a big enough problem or there are other products
               in the market which work just fine.
             </p>
-            <div id="product-market-fit-questions" />
             <p>
               As opposed to Net Promoter Score, which will tell us how happy our
               customers are, this question will tell us how important our
               product is to our market; in other words, whether we have found
               Product/Market Fit.
             </p>
-            <div className="thumbnail">
-              <div className="image-color">
-                <Image
-                  src="/productMarketFitQuestions.jpg"
-                  alt="Product market fit questions"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <p>
+            <figure>
+              <Image
+                src="/productMarketFitQuestions.jpg"
+                alt="Product market fit questions"
+                width={1310}
+                height={873}
+              />
+              <figcaption>
                 The key to Product/Market Fit is finding a product customers
                 can&apos;t live without and changing our messaging and
                 positioning to attract that customer.
-              </p>
-            </div>
+              </figcaption>
+            </figure>
             <p>
               When we use Javelin&apos;s Product/Market Fit Survey, we&apos;re
               looking for at least 40% of our customers to say they would be
@@ -646,37 +624,11 @@ export default function Home() {
               improvements to the features you released in your product that
               month.
             </p>
-            <div id="customer-segments" />
             <p>
               No matter where you start from the first survey, if after two to
               three months the score does not improve, it&apos;s time to pivot.
             </p>
             <h2>Customer Segments</h2>
-            <p>
-              The heart of Javelin is its customer segments tool. Every
-              experiment and decision you make starts with the customer.
-            </p>
-            <div id="defining-segments" />
-            <div className="thumbnail">
-              <div className="image-color w100">
-                <Image
-                  className="w100"
-                  src="/customerSegments.gif"
-                  alt="Javelin customer segments"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <p>
-                This is your Customer Segments dashboard. Here you decide who to
-                focus on and track your progress over time.
-              </p>
-              <p>
-                #1 = Adding Customer Categories. #5 = Toggle ON/OFF the
-                Estimates or Progress tables.
-              </p>
-            </div>
-            <h2>How to Define Customer Segments</h2>
             <p>
               Simply, a customer segment is a group of customers who are the
               same in the eyes of our business. In traditional marketing,
@@ -698,17 +650,7 @@ export default function Home() {
               B.
             </p>
             <p>
-              Javelin&apos;s customer segments tool is meant to be flexible to
-              suit the needs of many different businesses at different stages.
-              For this reason you should be generous in defining new customer
-              segments and customer categories. Duplication is also ok. This is
-              a living and breathing dashboard that will evolve as you conduct
-              more experiments and add more data about your customers. The most
-              important thing is to make this tool useful for yourself and your
-              team.
-            </p>
-            <p>
-              <strong>Customer categories</strong>
+              <strong>Customer categories </strong>
               allow you to put context around a group of customer segments. For
               example, a business in the Product Stage may have a category for
               &quot;Existing Customers.&quot; And within this category drill
@@ -726,7 +668,6 @@ export default function Home() {
               In fact, it might be helpful over time to move validated segments
               into their own categories so you can drill in deeper.
             </p>
-            <div id="estimates" />
             <p>
               Organize your customer segments like you organize your mind and
               decision making about your business. Be generous in your use of
@@ -734,21 +675,14 @@ export default function Home() {
               time. If you do this, your decision making and thinking about your
               business will become better and better.
             </p>
-            <div className="thumbnail">
-              <div className="image-color">
-                <Image
-                  src="/theCustomerSegment.jpg"
-                  alt="The customer segment"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <p>
-                When you click, &quot;Edit&quot; on a customer segment from the
-                customer segments tool, you are taken to a dashboard for the
-                individual segment.
-              </p>
-            </div>
+            <figure>
+              <Image
+                src="/theCustomerSegment.jpg"
+                alt="The customer segment"
+                width={1310}
+                height={873}
+              />
+            </figure>
             <p>
               Each customer segment is a living and breathing document where
               your team will build on it&apos;s understanding of each customer.
@@ -770,7 +704,7 @@ export default function Home() {
               Invalidated.
             </p>
             <p>
-              There is no minimum or maximimum number of experiments needed to
+              There is no minimum or maximum number of experiments needed to
               Validate or Invalidate a segment. The only person who can apply
               meaning to your data is you. An experienced Lean mentor will be a
               useful guide in making this decision, but ultimately you must make
@@ -791,7 +725,7 @@ export default function Home() {
               most relevant and helpful to entrepreneurs.
             </p>
             <p>
-              <strong>Pain</strong>
+              <strong>Pain </strong>
               is how big the problem we&apos;re trying to solve is for this
               segment. Does this segment have a significant inconvenience or
               emotional burden caused by this problem? Are there currently no
@@ -808,14 +742,14 @@ export default function Home() {
               successful.
             </p>
             <p>
-              <strong>Market Size</strong>
+              <strong>Market Size </strong>
               is the size of the market for this customer segment. How many of
               this type of customer are there? How much can they afford to pay?
               We recommend a bottom-up market sizing approach for this estimate.
               The bigger our market size, the bigger our business can grow.
             </p>
             <p>
-              <strong>Ease of Access</strong>
+              <strong>Ease of Access </strong>
               is how quickly and easily we can talk to or reach this segment. In
               a startup, speed is everything. One of the biggest mistakes you
               can make is choosing a customer segment that is difficult for you
@@ -828,22 +762,13 @@ export default function Home() {
               understanding your own team. You are the most important part of
               your business because everything is dependent upon you. One team
               may be well-suited to target a specific customer segment, whereas
-              another team may not be. If you are targetting a customer segment
+              another team may not be. If you are targeting a customer segment
               that you can not access easily, you are making a fatal mistake for
               your business. Remember, it&apos;s not the idea that matters, but
               your execution of the idea. Your ease of access to customers is
               key to your successful execution.
             </p>
-            <div id="real-persons-notes" />
-            <h2>3. Hiding Estimates</h2>
-            <p>
-              If you do not need to prioritize your customer segments, or you
-              find that these estimates are not helpful to your situation, you
-              can easily turn them off. This will give your customer segments
-              dashboard a cleaner look, rather than displaying a bunch of
-              zeroes.
-            </p>
-            <h2>4. Real Persons</h2>
+            <h2>3. Real Persons</h2>
             <p>
               Real Persons are your personas of actual customers. While a
               customer segment name is an abstract definition, a real person
@@ -852,16 +777,14 @@ export default function Home() {
               discussion with your team about who you are targetting.
             </p>
             <p>
-              In this way, Javelin acts like a database or CRM (customer
-              relationship management) for your validation activities. As you
-              interview people, you want to remember the individuals who
+              As you interview people, you want to remember the individuals who
               represent the ideal example of your customer segment. Javelin
               allows you to describe these individuals in detail and why they
-              represent your customer segment. You can also store their email
-              and personal website so you anyone on your team can learn more
-              about this person or get in contact with him or her.
+              represent your customer segment. Store their email and personal
+              website so you anyone on your team can learn more about this
+              person or get in contact with him or her.
             </p>
-            <h2>5. Notes</h2>
+            <h2>4. Notes</h2>
             <p>
               Notes are where you write down important learnings and discuss
               your customer segment with your team. Think of it like a summary
@@ -871,8 +794,7 @@ export default function Home() {
               also allow you to link to specific interviews or other resources
               (ie. Google Docs, blog articles) about your customer.
             </p>
-            <h2>6. Experiments</h2>
-            <div id="interviews" />
+            <h2>5. Experiments</h2>
             <p>
               Your customer dashboard also keeps track of the specific
               experiments you have conducted on that customer segment. You can
@@ -884,22 +806,19 @@ export default function Home() {
               Interviewing customers takes time and skill, but is the fastest
               and most powerful way to learn if our business will be viable.
             </p>
-            <div className="thumbnail">
-              <div className="image-color">
-                <Image
-                  src="/howToInterviewCustomers.jpg"
-                  alt="How to interview customers"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <div id="leading-questions" />
-              <p>
+            <figure>
+              <Image
+                src="/howToInterviewCustomers.jpg"
+                alt="How to interview customers"
+                width={1310}
+                height={873}
+              />
+              <figcaption>
                 We interview customers like detective Sherlock Holmes. We
                 don&apos;t trust what customers say, but we look for facts and
                 try to make our own judgement about the truth.
-              </p>
-            </div>
+              </figcaption>
+            </figure>
             <p>
               Interviewing customers is a skill that takes practice to get good
               at it. A good interviewer is a good detective. Someone that looks
@@ -913,7 +832,7 @@ export default function Home() {
             <p>
               The biggest mistakes entrepreneurs make when interviewing
               customers is asking
-              <strong>leading questions.</strong>
+              <strong> leading questions. </strong>
               If we approach interviewing in order to confirm our own beliefs,
               we are surely to find what we are looking for. But this will lead
               to disaster for our startup.
@@ -929,35 +848,30 @@ export default function Home() {
               problem, will tell us what they will do in the future and whether
               or not our business can be viable.
             </p>
-            <div className="thumbnail">
-              <div className="image-color">
-                <Image
-                  src="/getTheFacts.jpg"
-                  alt="Get the facts"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <div id="the-riskiest-assumption" />
-              <p>
+            <figure>
+              <Image
+                src="/getTheFacts.jpg"
+                alt="Get the facts"
+                width={1310}
+                height={873}
+              />
+              <figcaption>
                 Opinions are not facts. Sherlock Holmes does not ask people,
                 &quot;Who do you think the murderer is?&quot; He asks them,
                 &quot;Where were you on the night of the murder?&quot;
-              </p>
-            </div>
+              </figcaption>
+            </figure>
             <h2>The Riskiest Assumption</h2>
             <p>
-              When creating an Interviews Set, Javelin asks you to define the
-              riskiest assumption. Every business idea is based on the
-              inspiration of an individual or team. And inspiration comes from a
-              certain way of looking at the world, also known as assumptions
-              about the world. Most of the time, the riskiest assumption is
-              simply why you assume the problem exists. It&apos;s important to
-              define your problem hypothesis in specific terms, and it is even
-              more important to create a logic for how you came up with your
-              problem hypothesis.
+              Define the riskiest assumption. Every business idea is based on
+              the inspiration of an individual or team. And inspiration comes
+              from a certain way of looking at the world, also known as
+              assumptions about the world. Most of the time, the riskiest
+              assumption is simply why you assume the problem exists. It&apos;s
+              important to define your problem hypothesis in specific terms, and
+              it is even more important to create a logic for how you came up
+              with your problem hypothesis.
             </p>
-            <div id="interview-ui" />
             <p>
               You must define your riskiest assumption in a way that if your
               riskiest assumption is false then your problem hypothesis is also
@@ -968,21 +882,15 @@ export default function Home() {
               confirm it, but to critically test it to see if it will hold up
               against all forms of scrutiny.
             </p>
-            <h2>Javelin&apos;s Interview UI</h2>
-            <div className="thumbnail">
-              <div className="image-color">
-                <Image
-                  src="/customerInterviews.jpg"
-                  alt="Customer interviews"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <p>
-                Javelin is designed to make conducting and analyzing your
-                customers interviews as easy as possible.
-              </p>
-            </div>
+            <h2>Customer Interviews</h2>
+            <figure>
+              <Image
+                src="/customerInterviews.jpg"
+                alt="Customer interviews"
+                width={1310}
+                height={873}
+              />
+            </figure>
             <h3>1. Interview Script</h3>
             <p>
               When you start a new interviews set, it&apos;s important to create
@@ -1033,27 +941,24 @@ export default function Home() {
               that score at the top your interview. This tool should be used as
               a basis for comparison across customers and segments.
             </p>
-            <div id="early-adopters" />
             <p>
               Interviews can only be scored after they are saved. So you will
               not be able to score an interview from the new interview screen.
             </p>
             <h2>Early Adopters</h2>
-            <div className="thumbnail">
-              <div className="image-color">
-                <Image
-                  src="/earlyAdopterDefinition.jpg"
-                  alt="Early adopter definition"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <p>
+            <figure>
+              <Image
+                src="/earlyAdopterDefinition.jpg"
+                alt="Early adopter definition"
+                width={1310}
+                height={873}
+              />
+              <figcaption>
                 The true purpose of interviews is to find early adopters. If you
                 can&apos;t find early adopters, your business can not be
                 successful.
-              </p>
-            </div>
+              </figcaption>
+            </figure>
             <p>
               In traditional marketing, we want to do market research to
               understand where the market is today. But in customer development
@@ -1088,7 +993,6 @@ export default function Home() {
               solves their problem. Marketing, design, and branding don&apos;t
               matter to them so don&apos;t waste your time on it.
             </p>
-            <div id="landing-pages" />
             <p>
               Organic growth comes from the word of mouth of early adopters.
               Because these customers are highly loyal and influencers,
@@ -1101,69 +1005,10 @@ export default function Home() {
               you understand your target customer segments and can get them to
               pay for your solution.
             </p>
-            <div className="thumbnail">
-              <div className="image-color">
-                <Image
-                  src="/landingPageBuilder.jpg"
-                  alt="Javelin landing page builder"
-                  width={1310}
-                  height={873}
-                />
-              </div>
-              <p>
-                Javelin&apos;s advanced landing page builder includes several
-                professional templates and in-depth customization.
-              </p>
-            </div>
             <p>
               With a landing page, we test to see if we can get customers for
               our product before we invest the time and money in building it.
             </p>
-            <h2>1. Sidebar</h2>
-            <p>
-              You can open the sidebar by clicking on the &quot;&lt;-
-              Options&quot; button in the bottom left of the screen.
-            </p>
-            <p>
-              The sidebar allows you to edit the colors of your landing page,
-              the number of pricing plans, the signup thank you confirmation
-              text, as well as the call-to-actions for the Contact Us link (top
-              right), pricing plan &quot;choose&quot; button, the signup form
-              &quot;signup&quot; button, and the contact form &quot;send&quot;
-              button.
-            </p>
-            <p>
-              For everything else, you can edit it directly inline just by
-              clicking on it and typing what you want. Don&apos;t forget to edit
-              the contact form and the signup form by clicking on the correct
-              button to get those popup forms to show.
-            </p>
-            <h2>2. Inline Editing</h2>
-            <p>
-              Javelin&apos;s landing page builder is powerful and easy to use
-              because you can edit all of the text on the page in-line. When you
-              hover your mouse over an area, a blue box will surround the places
-              you can edit. Simply click on the text to get started.
-            </p>
-            <h2>3. Previewing Your Page</h2>
-            <p>
-              When you are happy with the way your landing page looks, you can
-              click the floating &quot;Save &amp; Preview&quot; button on the
-              bottom right of your screen. This will show you what your page
-              looks like live, and allows you to click around and test the
-              various links and popup forms. You will not be able to sign-up or
-              submit the contact form in the preview mode.
-            </p>
-            <h2>The Contact Form</h2>
-            <p>
-              Emails submitted on the contact form count towards your signup
-              count. When a user submits their email and message, it will show
-              up in your landing page experiment with their message. Feel free
-              to email them directly if you find relevant.
-            </p>
-            <h2>P/M Fit Surveys</h2>
-            <p />
-            <div id="javelin-mindset" />
             <h2>Final Recommendations</h2>
             <p>
               We&apos;ve given you the principles and the tools, the final
