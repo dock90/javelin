@@ -1,24 +1,21 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import {
-  MenuIcon,
-  XIcon,
-} from '@heroicons/react/outline'
+import Image from 'next/image';
+import { Fragment } from 'react';
+import { Popover, Transition } from '@headlessui/react';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
 
 const resources = [
   { name: '1. Intro', href: 'intro' },
   { name: '2. The Pattern of Successful Startups', href: '#' },
   { name: '3. The Javelin Method', href: '#' },
   { name: '4. The Pivot Explained', href: '#' },
-  { name: '5. Javelin\'s Three Stages', href: '#' },
+  { name: "5. Javelin's Three Stages", href: '#' },
   { name: '6. What is Product/Market Fit?', href: '#' },
   { name: '7. Customer Segments', href: '#' },
   { name: '8. Interviews', href: '#' },
   { name: '9. Landing Pages', href: '#' },
   { name: '10. P/M Fit Surveys', href: '#' },
   { name: '11. Final Recommendations', href: '#' },
-]
+];
 
 export default function Header() {
   return (
@@ -28,10 +25,12 @@ export default function Header() {
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="#">
               <span className="sr-only">Javalin</span>
-              <img
+              <Image
                 className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                src="/logo.svg"
                 alt=""
+                height={48}
+                width={48}
               />
             </a>
           </div>
@@ -53,15 +52,20 @@ export default function Header() {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
       >
-        <Popover.Panel focus className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-10">
+        <Popover.Panel
+          focus
+          className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-10"
+        >
           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <div>
-                  <img
+                  <Image
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                    src="/logo.svg"
                     alt="Workflow"
+                    height={48}
+                    width={48}
                   />
                 </div>
                 <div className="-mr-2">
@@ -89,5 +93,5 @@ export default function Header() {
         </Popover.Panel>
       </Transition>
     </Popover>
-  )
+  );
 }
