@@ -398,13 +398,11 @@ export default function Home() {
             <div id="javelin-mindset"></div>
             <h2>Final Recommendations</h2>
             <p>We&aposve given you the principles and the tools, the final battle is inside yourself.</p>
-            <div className="thumbnail">
-              <div className="image-color">
+              <figure>
                 <Image src="/michaelJordan.jpg" alt="Michael jordan is lean" width={1310}
                   height={873}/>
-              </div>
-              <p>The lean process is simple, but not easy. You will have to let go of your ego and embrace failure to succeed.</p>
-            </div>
+                <figcaption>The lean process is simple, but not easy. You will have to let go of your ego and embrace failure to succeed.</figcaption>
+              </figure>
 
             {/* <ul role="list">
               <li>Quis elit egestas venenatis mattis dignissim.</li>
