@@ -486,7 +486,7 @@ export default function Home() {
               requires our own judgement and vision to test a new product
               direction.
             </p>
-            <h2>What is Product/Market Fit?</h2>
+            <h2 id="whatIsProductMarketFit">What is Product/Market Fit?</h2>
             <p>
               Reaching Product/Market Fit is difficult, but we must find it
               before we can grow our business sustainably. Here&apos;s how to
@@ -628,7 +628,7 @@ export default function Home() {
               No matter where you start from the first survey, if after two to
               three months the score does not improve, it&apos;s time to pivot.
             </p>
-            <h2>Customer Segments</h2>
+            <h2 id="customerSegments">Customer Segments</h2>
             <p>
               Simply, a customer segment is a group of customers who are the
               same in the eyes of our business. In traditional marketing,
@@ -801,7 +801,7 @@ export default function Home() {
               easily create a new experiment for this customer segment here and
               view a list of the experiments specific to this segment.
             </p>
-            <h2>Interviews</h2>
+            <h2 id="interviews">Interviews</h2>
             <p>
               Interviewing customers takes time and skill, but is the fastest
               and most powerful way to learn if our business will be viable.
@@ -999,7 +999,7 @@ export default function Home() {
               capturing the market of early adopters is one of the most
               important competitive advantages a startup needs.
             </p>
-            <h2>Landing Pages</h2>
+            <h2 id="landingPages">Landing Pages</h2>
             <p>
               Landing pages are the first &quot;moment of truth&quot; to test if
               you understand your target customer segments and can get them to
@@ -1009,7 +1009,7 @@ export default function Home() {
               With a landing page, we test to see if we can get customers for
               our product before we invest the time and money in building it.
             </p>
-            <h2>Final Recommendations</h2>
+            <h2 id="finalRecommendations">Final Recommendations</h2>
             <p>
               We&apos;ve given you the principles and the tools, the final
               battle is inside yourself.

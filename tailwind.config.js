@@ -6,5 +6,6 @@ module.exports = {
   theme: {
     extend: {},
   },
+  // eslint-disable-next-line
   plugins: [require('@tailwindcss/typography')],
 };
