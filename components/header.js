@@ -7,7 +7,7 @@ import {
 } from '@heroicons/react/outline'
 
 const resources = [
-  { name: '1. Intro', href: '#' },
+  { name: '1. Intro', href: 'intro' },
   { name: '2. The Pattern of Successful Startups', href: '#' },
   { name: '3. The Javelin Method', href: '#' },
   { name: '4. The Pivot Explained', href: '#' },
